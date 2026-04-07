@@ -5,12 +5,15 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12.1"
 dependencies = [
+    "ipywidgets>=8.1.8",
     "jupyterlab>=4.5.6",
     "notebook>=7.5.5",
     "pandas>=3.0.2",
+    "pgcli>=4.4.0",
     "psycopg[binary,pool]>=3.3.3",
     "pyarrow>=23.0.1",
     "sqlalchemy>=2.0.49",
+    "tqdm>=4.67.3",
 ]
 
 [dependency-groups]
