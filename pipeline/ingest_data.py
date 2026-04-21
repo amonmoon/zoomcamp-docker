@@ -90,7 +90,7 @@ def run(
         )
 
     # Verify data
-    query = "SELECT * FROM yellow_taxi_data LIMIT 10"
+    query = "SELECT * FROM {target_table} LIMIT 10"
     df_sample = pd.read_sql(query, con=engine)
     print(df_sample.head())
 
